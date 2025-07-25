@@ -13,7 +13,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { CheckCircle, Edit, X, RefreshCw, ExternalLink, Clock, AlertTriangle, FileText, Mail, Send, ArrowUp, ArrowDown, User } from 'lucide-react';
 import { format } from 'date-fns';
 import { he } from 'date-fns/locale';
-import { createPageUrl } from '@/utils';
+import { createPageUrl } from "@/lib/utils";
 import { Link } from 'react-router-dom';
 import { ProcessAutomationService } from '../components/process-automation/ProcessAutomationService';
 
