@@ -14,7 +14,7 @@ import { Task } from '@/api/entities';
 import { Meeting } from '@/api/entities';
 import { Client } from '@/api/entities';
 import { Process } from '@/api/entities';
-import { createPageUrl } from '@/utils';
+import { createPageUrl } from '@/lib/utils';
 import { useToast } from "@/components/ui/use-toast";
 
 const statusColors = {
