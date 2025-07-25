@@ -13,7 +13,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Task } from '@/api/entities';
 import { Meeting } from '@/api/entities';
-import { createPageUrl } from '@/utils';
+import { createPageUrl } from "@/lib/utils";
 import { Link, useNavigate } from 'react-router-dom';
 import { useToast } from "@/components/ui/use-toast";
 
