@@ -22,7 +22,7 @@ import { useToast } from "@/components/ui/use-toast";
 import { useAccount } from '@/components/shared/AccountContext';
 import { SecureEntityOperations } from '@/components/shared/secureEntityOperations';
 import { Link } from 'react-router-dom';
-import { createPageUrl } from '@/utils';
+import { createPageUrl } from "@/lib/utils";
 
 export default function NewLeadDialog({ open, onOpenChange, onSuccess, processes: processesProp }) {
   const [formData, setFormData] = useState({
