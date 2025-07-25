@@ -12,7 +12,7 @@ import { he } from 'date-fns/locale';
 import { ProcessAction } from '@/api/entities';
 import { ProcessAutomationService } from './ProcessAutomationService';
 import { Link } from 'react-router-dom';
-import { createPageUrl } from '@/utils';
+import { createPageUrl } from "@/lib/utils";
 import { Process } from '@/api/entities';
 import { Client } from '@/api/entities';
 import { Lead } from '@/api/entities';
