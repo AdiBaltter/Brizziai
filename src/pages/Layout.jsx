@@ -44,14 +44,14 @@ import { Lead } from '@/api/entities'; // Added
 import { Task } from "@/api/entities"; // Added Task import
 import { Account } from '@/api/entities';
 import { AccountUser } from '@/api/entities'; // Ensure AccountUser is imported
-import NewTaskDialog from "./components/shared/NewTaskDialog";
-import NewMeetingDialog from "./components/shared/NewMeetingDialog";
-import NewLeadDialog from "./components/leads/NewLeadDialog";
-import { QuickActionContext } from "./components/shared/QuickActionContext";
+import NewTaskDialog from "../components/shared/NewTaskDialog";
+import NewMeetingDialog from "../components/shared/NewMeetingDialog";
+import NewLeadDialog from "../components/leads/NewLeadDialog";
+import { QuickActionContext } from "../components/shared/QuickActionContext";
 import { differenceInDays, isAfter, format } from "date-fns"; // Added date-fns imports
-import IdeaButton from "./components/shared/IdeaButton"; // Added IdeaButton import
-import { AccountProvider } from "./components/shared/AccountContext";
-import { SecureEntityOperations } from "./components/shared/secureEntityOperations";
+import IdeaButton from "../components/shared/IdeaButton"; // Added IdeaButton import
+import { AccountProvider } from "../components/shared/AccountContext";
+import { SecureEntityOperations } from "../components/shared/secureEntityOperations";
 
 const navigationItems = [
   {
