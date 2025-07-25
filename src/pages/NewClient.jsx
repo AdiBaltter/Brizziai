@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Client } from '@/api/entities';
 import { Process } from '@/api/entities';
 import { User } from '@/api/entities'; // Import User entity
-import { createPageUrl } from '@/utils';
+import { createPageUrl } from "@/lib/utils";
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
