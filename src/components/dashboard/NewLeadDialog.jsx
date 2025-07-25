@@ -17,7 +17,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Textarea } from '@/components/ui/textarea';
 import { Loader2 } from 'lucide-react';
 import { useToast } from "@/components/ui/use-toast";
-import { createPageUrl } from '@/utils';
+import { createPageUrl } from "@/lib/utils";
 
 export default function NewLeadDialog({ open, onOpenChange, onSuccess, accountId }) {
   const [formData, setFormData] = useState({
