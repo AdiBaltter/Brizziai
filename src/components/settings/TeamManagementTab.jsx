@@ -15,7 +15,7 @@ import {
   Settings as SettingsIcon
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { createPageUrl } from '@/utils';
+import { createPageUrl } from "@/lib/utils";
 
 export default function TeamManagementTab() {
   const [currentUser, setCurrentUser] = useState(null);
