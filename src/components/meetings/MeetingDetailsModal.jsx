@@ -10,7 +10,7 @@ import { Monitor, Phone, Building, Calendar, Clock, MapPin, FileText, Edit, Send
 import { format } from 'date-fns';
 import { he } from 'date-fns/locale';
 import { Meeting } from '@/api/entities';
-import { createPageUrl } from '@/utils';
+import { createPageUrl } from "@/lib/utils";
 import { Link } from 'react-router-dom';
 
 const statusColors = {
