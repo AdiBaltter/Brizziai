@@ -6,7 +6,7 @@ import { Bell, CheckCircle, FileText, Calendar, X } from "lucide-react";
 import { format } from "date-fns";
 import { he } from "date-fns/locale";
 import { useNavigate } from 'react-router-dom';
-import { createPageUrl } from '@/utils';
+import { createPageUrl } from "@/lib/utils";
 import ProcessActionModal from '../process-automation/ProcessActionModal';
 
 export default function NotificationBell({ tasks = [], approvalTasks = [], meetings = [], clients = [], leads = [], onUpdate = () => {} }) {
