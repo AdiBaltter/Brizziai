@@ -11,7 +11,7 @@ import {
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { Client } from '@/api/entities';
-import { createPageUrl } from '@/utils';
+import { createPageUrl } from "@/lib/utils";
 import { Loader2 } from 'lucide-react';
 import { useAccount } from '@/components/shared/AccountContext';
 import { SecureEntityOperations } from '@/components/shared/secureEntityOperations';
